@@ -5,10 +5,10 @@
   ],
   "packageRules": [
     {
+      "matchDatasources": ["docker"],
       "matchPackageNames": ["n8nio/n8n"],
-      "overridePackageName": "n8n-io/n8n",
       "overrideDatasource": "github-releases",
-      "pinDigests": false
+      "overridePackageName": "n8n-io/n8n"
     }
   ],
   "extends": [

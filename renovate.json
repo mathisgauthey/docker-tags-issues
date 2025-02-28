@@ -1,5 +1,4 @@
 {
-  "platform": "github",
   "prHourlyLimit": 0,
   "baseBranches": [
     "main"

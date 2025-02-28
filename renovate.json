@@ -1,29 +1,8 @@
 {
-  "platform": "azure",
-  "endpoint": "https://AZDO_URL/ORG_NAME/",
-  "azure-pipelines": {
-    "enabled": true
-  },
-  "repositories": [
-    "PROJECT/REPO"
-  ],
+  "platform": "github",
   "prHourlyLimit": 0,
   "baseBranches": [
     "main"
-  ],
-  "hostRules": [
-    {
-      "matchHost": "AZDO_DOMAIN",
-      "hostType": "azure-pipelines-tasks"
-    }
-  ],
-  "packageRules": [
-    {
-      "matchDatasources": [
-        "azure-pipelines-tasks"
-      ],
-      "extractVersion": "^(?<version>\\d+)"
-    }
   ],
   "extends": [
     "config:best-practices"

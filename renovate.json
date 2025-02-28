@@ -6,9 +6,11 @@
   "packageRules": [
     {
       "matchDatasources": ["docker"],
+      "matchBaseBranches": ["/^release/.*/"],
       "matchPackageNames": ["n8nio/n8n"],
       "overrideDatasource": "github-releases",
-      "overridePackageName": "n8n-io/n8n"
+      "overridePackageName": "n8n-io/n8n",
+      "followTag": "latest"
     }
   ],
   "extends": [

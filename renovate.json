@@ -10,7 +10,8 @@
       "matchPackageNames": ["n8nio/n8n"],
       "overrideDatasource": "github-releases",
       "overridePackageName": "n8n-io/n8n",
-      "followTag": "latest"
+      "followTag": "latest",
+      "pinDigests": false
     }
   ],
   "extends": [

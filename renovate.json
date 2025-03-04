@@ -5,7 +5,6 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": ["docker"],
       "matchPackageNames": ["n8nio/n8n"],
       "overrideDatasource": "npm",
       "overridePackageName": "n8n-io/n8n",

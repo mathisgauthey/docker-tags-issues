@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["n8nio/n8n"],
-      "overrideDatasource": "npm",
+      "overrideDatasource": "github-tags",
       "overridePackageName": "n8n-io/n8n",
       "pinDigests": false
     }
